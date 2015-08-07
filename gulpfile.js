@@ -67,20 +67,16 @@ gulp.task("copyfiles", function() {
 
     // Copy Rainbow
     gulp.src("vendor/bower_dl/rainbow/js/rainbow.js")
-        //.pipe(gulp.dest("resources/assets/js/"));
-        .pipe(gulp.dest("public/assets/js/"));
+        .pipe(gulp.dest("resources/assets/js/"));
 
     gulp.src("vendor/bower_dl/rainbow/js/language/generic.js")
-        //.pipe(gulp.dest("resources/assets/js/"));
-        .pipe(gulp.dest("public/assets/js/"));
+        .pipe(gulp.dest("resources/assets/js/"));
 
     gulp.src("vendor/bower_dl/rainbow/js/language/php.js")
-        //.pipe(gulp.dest("resources/assets/js/"));
-        .pipe(gulp.dest("public/assets/js/"));
+        .pipe(gulp.dest("resources/assets/js/"));
 
-    gulp.src("vendor/bower_dl/rainbow/themes/**")
-        //.pipe(gulp.dest("resources/assets/rainbow/css"));
-        .pipe(gulp.dest("public/assets/css/rainbow-themes/"));
+    gulp.src("vendor/bower_dl/rainbow/themes/tomorrow-night.css")
+        .pipe(gulp.dest("resources/assets/less/rainbow-themes/tomorrow-night.less"));
 
     // Copy image files
     gulp.src("resources/assets/img/**")
@@ -106,7 +102,9 @@ elixir(function(mix) {
         'js/jquery.js',
         'js/bootstrap.js',
         'js/smoothscroll.js',
-        //'js/rainbow.js',
+        'js/rainbow.js',
+        'js/generic.js',
+        'js/php.js',
         'js/blog.js'
     ], 'public/assets/js/blog.js', 'resources/assets');
 
