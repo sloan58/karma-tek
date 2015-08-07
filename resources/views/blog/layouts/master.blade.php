@@ -16,7 +16,6 @@
 
     {{-- Styles --}}
     <link href="/assets/css/blog.css" rel="stylesheet">
-    <link href="/assets/css/rainbow-themes/tomorrow-night.css" rel="stylesheet">
     @yield('styles')
 
     {{-- HTML5 Shim and Respond.js for IE8 support --}}
@@ -37,9 +36,6 @@
 
 {{-- Scripts --}}
 <script src="/assets/js/blog.js"></script>
-<script src="/assets/js/rainbow.js"></script>
-<script src="/assets/js/generic.js"></script>
-<script src="/assets/js/php.js"></script>
 @yield('scripts')
 
 </body>

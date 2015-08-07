@@ -76,7 +76,8 @@ gulp.task("copyfiles", function() {
         .pipe(gulp.dest("resources/assets/js/"));
 
     gulp.src("vendor/bower_dl/rainbow/themes/tomorrow-night.css")
-        .pipe(gulp.dest("resources/assets/less/rainbow-themes/tomorrow-night.less"));
+        .pipe(rename('tomorrow-night.less'))
+        .pipe(gulp.dest("resources/assets/less/rainbow-themes/"));
 
     // Copy image files
     gulp.src("resources/assets/img/**")
