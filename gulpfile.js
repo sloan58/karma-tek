@@ -67,10 +67,20 @@ gulp.task("copyfiles", function() {
 
     // Copy Rainbow
     gulp.src("vendor/bower_dl/rainbow/js/rainbow.js")
-        .pipe(gulp.dest("resources/assets/js/"));
+        //.pipe(gulp.dest("resources/assets/js/"));
+        .pipe(gulp.dest("public/assets/js/"));
+
+    gulp.src("vendor/bower_dl/rainbow/js/language/generic.js")
+        //.pipe(gulp.dest("resources/assets/js/"));
+        .pipe(gulp.dest("public/assets/js/"));
+
+    gulp.src("vendor/bower_dl/rainbow/js/language/php.js")
+        //.pipe(gulp.dest("resources/assets/js/"));
+        .pipe(gulp.dest("public/assets/js/"));
 
     gulp.src("vendor/bower_dl/rainbow/themes/**")
-        .pipe(gulp.dest("resources/assets/rainbow/css"));
+        //.pipe(gulp.dest("resources/assets/rainbow/css"));
+        .pipe(gulp.dest("public/assets/css/rainbow-themes/"));
 
     // Copy image files
     gulp.src("resources/assets/img/**")
@@ -96,7 +106,7 @@ elixir(function(mix) {
         'js/jquery.js',
         'js/bootstrap.js',
         'js/smoothscroll.js',
-        'js/rainbow.js',
+        //'js/rainbow.js',
         'js/blog.js'
     ], 'public/assets/js/blog.js', 'resources/assets');
 

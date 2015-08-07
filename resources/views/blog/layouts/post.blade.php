@@ -85,7 +85,7 @@
 @stop
 
 @section('scripts')
-    <div class="row">
+        <div class="row">
         <div class="col-md-6 col-md-offset-3">
             <div id="disqus_thread"></div>
             <script type="text/javascript">
@@ -102,4 +102,7 @@
             <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
         </div>
     </div>
+    <script>
+        Rainbow.color();
+    </script>
 @stop
