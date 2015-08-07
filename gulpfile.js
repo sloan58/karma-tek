@@ -65,6 +65,13 @@ gulp.task("copyfiles", function() {
     gulp.src("vendor/bower_dl/clean-blog/less/**")
         .pipe(gulp.dest("resources/assets/less/clean-blog"));
 
+    // Copy Rainbow
+    gulp.src("vendor/bower_dl/rainbow/js/rainbow.js")
+        .pipe(gulp.dest("resources/assets/js/"));
+
+    gulp.src("vendor/bower_dl/rainbow/themes/**")
+        .pipe(gulp.dest("resources/assets/rainbow/css"));
+
     // Copy image files
     gulp.src("resources/assets/img/**")
         .pipe(gulp.dest("public/assets/img"));
@@ -89,6 +96,7 @@ elixir(function(mix) {
         'js/jquery.js',
         'js/bootstrap.js',
         'js/smoothscroll.js',
+        'js/rainbow.js',
         'js/blog.js'
     ], 'public/assets/js/blog.js', 'resources/assets');
 

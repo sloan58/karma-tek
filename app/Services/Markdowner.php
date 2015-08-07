@@ -10,8 +10,11 @@ class Markdowner
 
     public function toHTML($text)
     {
+        $html = new MarkdownExtra;
+        $html->code_attr_on_pre = true;
+
         $text = $this->preTransformText($text);
-        $text = MarkdownExtra::defaultTransform($text);
+        $text = $html->defaultTransform($text);
         $text = SmartyPants::defaultTransform($text);
         $text = $this->postTransformText($text);
         return $text;
