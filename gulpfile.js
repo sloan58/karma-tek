@@ -75,6 +75,9 @@ gulp.task("copyfiles", function() {
     gulp.src("vendor/bower_dl/rainbow/js/language/php.js")
         .pipe(gulp.dest("resources/assets/js/"));
 
+    gulp.src("vendor/bower_dl/rainbow/js/language/shell.js")
+        .pipe(gulp.dest("resources/assets/js/"));
+
     gulp.src("vendor/bower_dl/rainbow/themes/tomorrow-night.css")
         .pipe(rename('tomorrow-night.less'))
         .pipe(gulp.dest("resources/assets/less/rainbow-themes/"));
@@ -106,6 +109,7 @@ elixir(function(mix) {
         'js/rainbow.js',
         'js/generic.js',
         'js/php.js',
+        'js/shell.js',
         'js/blog.js'
     ], 'public/assets/js/blog.js', 'resources/assets');
 
