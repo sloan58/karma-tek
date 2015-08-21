@@ -61,7 +61,7 @@
                         </li>
                     @endif
                 @else
-                    @if ($post->olderPost($tag))
+                @if ($post->olderPost($tag))
                         <li class="next">
                             <a href="{!! $post->olderPost($tag)->url($tag) !!}">
                                 Next Older {{ $tag ? $tag->tag : '' }} Post
