@@ -45,7 +45,7 @@ class BlogIndexData extends Job implements SelfHandling
         $posts = Post::with('tags')
             ->where('published_at', '<=', Carbon::now())
             ->where('is_draft', 0)
-            ->orderBy('published_at', 'desc')
+            ->orderBy('published_at', 'asc')
             ->simplePaginate(config('blog.posts_per_page'));
 
         return [

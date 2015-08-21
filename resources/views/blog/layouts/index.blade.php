@@ -8,7 +8,6 @@
                     <div class="header-pull header-text">
                         <img class="img-responsive center-block" src="assets/img/Karma-Tek.png">
                         <h1>- Blog -</h1>
-                        <h6>Coming Soon....</h6>
                     </div>
                 </div>
             </div>
