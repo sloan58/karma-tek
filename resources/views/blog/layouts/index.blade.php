@@ -6,7 +6,7 @@
             <div class="row center-block">
                 <div class="site-heading">
                     <div class="header-pull header-text">
-                        <img class="img-responsive center-block" src="assets/img/Karma-Tek.png">
+                        <img class="img-responsive center-block" src="{{asset('assets/img/Karma-Tek.png')}}">
                         <h1>- Blog -</h1>
                     </div>
                 </div>
