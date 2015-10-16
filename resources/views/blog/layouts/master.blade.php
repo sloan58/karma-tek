@@ -7,7 +7,7 @@
     <meta name="description" content="{{ $meta_description or config('blog.description') }}">
     <meta name="author" content="{{ config('blog.author') }}">
 
-    <link rel="shortcut icon" href="assets/img/KarmaTek_logo_FINAL_KnotOnly_nowhite.png">
+    <link rel="shortcut icon" href="{{ asset('assets/img/KarmaTek_logo_FINAL_KnotOnly_nowhite.png') }}">
 
     <title>{{ $title or config('blog.title') }}</title>
 
