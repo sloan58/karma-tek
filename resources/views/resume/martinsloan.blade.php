@@ -643,17 +643,16 @@ h4 > .fa {
                 <li class="card-nested">
                   <div class="content has-sidebar">
                     <p class="clear-margin-sm">
-                      <strong>Certifications, and others</strong>,&nbsp;
-                      Cisco
+                      <strong>Certifications</strong>
                     </p>
                     <p class="text-muted">
                       <small>
-                        Sep 2007 -  Jul 2015
+                        Sep 2007 -  Present
                       </small>
                     </p>
                     <i></i>
                     <div class="space-top labels">
-                       <span class="label label-keyword">Cisco Certified Internetwork Expert - #41076</span>  <span class="label label-keyword">Cisco Certified Design Associate</span>  <span class="label label-keyword">ITL-Foundations</span>  <span class="label label-keyword">A+ Hardware/OS</span>
+                       <span class="label label-keyword">Cisco Certified Internetwork Expert (Collaboration) - #41076</span>  <span class="label label-keyword">Cisco Certified Design Associate</span>  <span class="label label-keyword">ITL-Foundations</span>  <span class="label label-keyword">A+ Hardware/OS</span>
                     </div>
                   </div>
                 </li>
@@ -666,12 +665,12 @@ h4 > .fa {
             <ul class="list-unstyled">
                 <li class="card-nested">
                   <p>
-                    <strong>Music</strong>
+                    <strong>Blues Music</strong>
                   </p>
 
                   <div class="space-top labels">
-                      <span class="label label-keyword">Les Paul</span>
-                      <span class="label label-keyword">Stratocaster</span>
+                      <span class="label label-keyword">Gibson Les Paul</span>
+                      <span class="label label-keyword">Fender Stratocaster</span>
                   </div>
                 </li>
                 <li class="card-nested">

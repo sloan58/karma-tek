@@ -6,8 +6,15 @@ get('/', function () {
 });
 
 //Resume
+get('martinsloan/resume',[
+    'as' => 'martinsloan',
+    'uses' => function(){
+        return view('resume.martinsloan');
+    }
+]);
+//Resume
 get('resume',function(){
-    return view('resume.martinsloan');
+    return redirect()->route('martinsloan');
 });
 
 //Test
