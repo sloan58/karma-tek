@@ -518,7 +518,9 @@ h4 > .fa {
                     <p class="text-muted">
                       <small>
                         <span class="space-right"> Jan 2012 -  Present  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 3 years 6 months </span>
+                         <span> <i class="fa fa-clock-o icon-left"></i>
+                           {{\Carbon\Carbon::createFromDate(2012,1,1)->diff(\Carbon\Carbon::now())->format('%y years and %m months')}}
+                         </span>
                       </small>
                     </p>
                     <p>Unified Communications expert specializing in programatic automation, integration and management tools</p>
@@ -539,7 +541,9 @@ h4 > .fa {
                     <p class="text-muted">
                       <small>
                         <span class="space-right"> Mar 2011 -  Jan 2013  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 1 year 10 months </span>
+                         <span> <i class="fa fa-clock-o icon-left"></i>
+                           {{\Carbon\Carbon::createFromDate(2011,3,1)->diff(\Carbon\Carbon::createFromDate(2013,1,1))->format('%y year and %m months')}}
+                         </span>
                       </small>
                     </p>
                     <p>Deployment lead for a global communications system supporting 20k+ users.</p>
@@ -559,8 +563,11 @@ h4 > .fa {
                     </p>
                     <p class="text-muted">
                       <small>
-                        <span class="space-right"> Mar 2008 -  Mar 2011  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 3 years </span>
+                        <span class="space-right">
+                          Mar 2008 -  Mar 2011  </span>
+                         <span> <i class="fa fa-clock-o icon-left"></i>
+                           {{\Carbon\Carbon::createFromDate(2008,3,1)->diff(\Carbon\Carbon::createFromDate(2011,3,1))->format('%y years')}}
+                         </span>
                       </small>
                     </p>
                     <p>Team leader of Unified Communications support branch.</p>
@@ -581,7 +588,9 @@ h4 > .fa {
                     <p class="text-muted">
                       <small>
                         <span class="space-right"> Nov 2006 -  Mar 2008  </span>
-                         <span> <i class="fa fa-clock-o icon-left"></i> 1 year 4 months </span>
+                         <span> <i class="fa fa-clock-o icon-left"></i>
+                           {{\Carbon\Carbon::createFromDate(2006,11,1)->diff(\Carbon\Carbon::createFromDate(2008,3,1))->format('%y year and %m months')}}
+                         </span>
                       </small>
                     </p>
                     <p>Design, implement and support 100+ satellite offices.</p>
