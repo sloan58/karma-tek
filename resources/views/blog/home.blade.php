@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row">
                 <div class="site-heading main-page-header">
-                    <div class="col-md-10 col-md-offset-1">
+                    <div class="col-md-6 col-md-offset-3">
                     <div class="well">
                     <img class="img-responsive center-block" src="assets/img/Karma-Tek.png">
                     </div>

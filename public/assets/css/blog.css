@@ -8916,7 +8916,7 @@ dd {
 }
 .row .main-page-header {
   min-height: 960px;
-  padding-top: 250px;
+  padding-top: 150px;
 }
 .well {
   background-color: #000000;
@@ -8940,6 +8940,9 @@ dd {
 }
 .header-pull {
   margin-left: -100px;
+}
+pre {
+  margin: 20px 20px;
 }
 /**
  * Tomorrow Night theme
