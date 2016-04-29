@@ -14,13 +14,13 @@
             background: #fff;
             font-family: 'Roboto', sans-serif;
             font-weight: 300;
-            line-height: 1.7;
+            line-height: 1.4;
         }
         em {
             color: #999;
         }
         p {
-            line-height: 1.7;
+            line-height: 1.4;
         }
         ul {
             margin-bottom: 0;
@@ -504,7 +504,7 @@
                     </div>
                     <div class="email">
                         <icon class="entypo-mail"></icon>
-                        <a href="/cdn-cgi/l/email-protection#cba6aab9bfa2a5e5b8a7a4aaa58ba0aab9a6aae6bfaea0e5a8a4a6"><span class="__cf_email__" data-cfemail="8ae7ebf8fee3e4a4f9e6e5ebe4cae1ebf8e7eba7feefe1a4e9e5e7">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
+                        <a href="/cdn-cgi/l/email-protection#3c515d4e485552124f50535d527c575d4e515d11485957125f5351"><span class="__cf_email__" data-cfemail="dcb1bdaea8b5b2f2afb0b3bdb29cb7bdaeb1bdf1a8b9b7f2bfb3b1">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
                     </div>
                     <div class="phone">
                         <icon class="entypo-phone"></icon>
@@ -880,7 +880,7 @@
                     <h3>Karma-Tek Blog</h3>
                 </div>
                 <div class="publisher">
-                    <p class="lead">Martin Sloan</p>
+                    <p class="lead">Marty Sloan</p>
                 </div>
                 <div class="website">
                     <a href="http://www.karma-tek.com/blog">Link</a>
