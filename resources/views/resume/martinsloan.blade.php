@@ -632,12 +632,13 @@
                     <a href="http://www.presidio.com/">http://www.presidio.com/</a>
                 </div>
                 <div class="summary">
-                    <p>Team leader of Unified Communications support branch</p>
+                    <p>Provided Tier3 network support and acted as team leader of Unified Communications support branch</p>
                 </div>
                 <ul class="highlights">
                     <li>Created standard procedures for consistency and to improve support response time.</li>
                     <li>Assisted in disaster recovery planning, testing, implementation and documentation.</li>
                     <li>Strong team management and supervisory skills including scheduling, priority setting of tickets.</li>
+                    <li>Involved in new customer kick-off meetings and service turn ups.</li>
                 </ul>
             </div>
             <div class="item">
@@ -662,6 +663,7 @@
                     <p>Provided Tier2 network support, monitoring, and troubleshooting of company&#x27;s global client networks to include LAN/WAN, Security and VoIP.</p>
                 </div>
                 <ul class="highlights">
+                    <li>Directly responsible for Cisco UC, network and security troublshooting, maintenance and upgrade tasks as offered by Presidio Managed Services.</li>
                     <li>Interfaced directly with service providers, customers, field technicians, service contractors, and field service coordinators to troubleshoot and resolve network-related issues.</li>
                     <li>Trained and mentored network operations personnel.</li>
                     <li>Developed documentation on standards and troubleshooting processes to improve overall efficiency and productivity of network operations personnel.</li>
