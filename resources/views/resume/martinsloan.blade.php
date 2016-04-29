@@ -14,13 +14,13 @@
             background: #fff;
             font-family: 'Roboto', sans-serif;
             font-weight: 300;
-            line-height: 1.5;
+            line-height: 1.7;
         }
         em {
             color: #999;
         }
         p {
-            line-height: 1.5;
+            line-height: 1.7;
         }
         ul {
             margin-bottom: 0;
@@ -504,7 +504,7 @@
                     </div>
                     <div class="email">
                         <icon class="entypo-mail"></icon>
-                        <a href="/cdn-cgi/l/email-protection#fc919d8e889592d28f90939d92bc979d8e919dd1889997d29f9391"><span class="__cf_email__" data-cfemail="80ede1f2f4e9eeaef3ecefe1eec0ebe1f2ede1adf4e5ebaee3efed">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
+                        <a href="/cdn-cgi/l/email-protection#75181407011c1b5b06191a141b351e140718145801101e5b161a18"><span class="__cf_email__" data-cfemail="6e030f1c1a0700401d02010f002e050f1c030f431a0b05400d0103">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
                     </div>
                     <div class="phone">
                         <icon class="entypo-phone"></icon>
@@ -540,7 +540,7 @@
     <div id="summary" class="row">
         <div class="col-sm-8 col-sm-offset-4 col-xs-12">
             <div class="summary">
-                <p class="lead">Martin is a dedicated and experienced subject matter expert Collaboration engineer and avid web application developer.  His unique combination of experience with full-stack development, virtualization technologies and unified communications platforms offers a broad understanding of the technology stack and unique insights into engineering tasks and IT lifecycle management.</p>
+                <p class="lead">Martin (Marty) Sloan is a dedicated and experienced subject matter expert Collaboration engineer and avid web application developer.  His unique combination of experience in full-stack development, virtualization technologies and unified communications platforms offers a broad understanding of the technology stack and unique insights into engineering tasks and IT lifecycle management.</p>
             </div>
         </div>
     </div>
@@ -602,7 +602,7 @@
 					</span>
                 </div>
                 <div class="website">
-                    <a href="http://www.orange-business.com/">http://www.orange-business.com/</a>
+                    <a href="http://www.orange-business.com">http://www.orange-business.com</a>
                 </div>
                 <div class="summary">
                     <p>Deployment lead for CUCM global communications system.</p>
@@ -629,7 +629,7 @@
 					</span>
                 </div>
                 <div class="website">
-                    <a href="http://www.presidio.com/">http://www.presidio.com/</a>
+                    <a href="http://www.presidio.com">http://www.presidio.com</a>
                 </div>
                 <div class="summary">
                     <p>Provided Tier3 network support and acted as team leader of Unified Communications support branch</p>
@@ -657,7 +657,7 @@
 					</span>
                 </div>
                 <div class="website">
-                    <a href="http://www.presidio.com/">http://www.presidio.com/</a>
+                    <a href="http://www.presidio.com">http://www.presidio.com</a>
                 </div>
                 <div class="summary">
                     <p>Provided Tier2 network support, monitoring, and troubleshooting of company&#x27;s global client networks to include LAN/WAN, Security and VoIP.</p>
@@ -685,10 +685,10 @@
 					</span>
                 </div>
                 <div class="website">
-                    <a href="http://www.presidio.com/">http://www.presidio.com/</a>
+                    <a href="http://www.presidio.com">http://www.presidio.com</a>
                 </div>
                 <div class="summary">
-                    <p>Provided Tier1 network support and supervised a 12-member 24/7 Operations Center staff.</p>
+                    <p>Provided Tier1 network support and supervised a 24/7 Operations Center.</p>
                 </div>
                 <ul class="highlights">
                     <li>Recruited, and periodically evaluated staff members.</li>
@@ -697,6 +697,33 @@
                     <li>Collaborated with inter-departmental corporate teams.</li>
                     <li>Monitored call center productivity and effectiveness.</li>
                     <li>Led daily conference calls with field personnel.</li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3 class="name">
+                    Bozzuto Management Company
+                </h3>
+                <div class="position">
+                    <p class="lead">Lead Deployment Technician</p>
+                </div>
+                <div class="date">
+					<span class="startDate">
+						2006-11-01
+					</span>
+					<span class="endDate">
+						- 2008-03-01
+					</span>
+                </div>
+                <div class="website">
+                    <a href="http://www.bozzuto.com">http://www.bozzuto.com</a>
+                </div>
+                <div class="summary">
+                    <p>Design, implement and support 100+ branch office networks.</p>
+                </div>
+                <ul class="highlights">
+                    <li>Implement Windows workgroup and domain networks.</li>
+                    <li>Deploy and configure Netgear routers and switches.</li>
+                    <li>Support all facets of application and network trouble ticket requests.</li>
                 </ul>
             </div>
         </div>
@@ -789,6 +816,12 @@
                 </div>
                 <div class="date">
                     2009-04-01
+                </div>
+            </div>
+            <div class="item">
+                <h3 class="title">ITIL Foundation</h3>
+                <div class="date">
+                    2008-08-01
                 </div>
             </div>
             <div class="item">
