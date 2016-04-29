@@ -14,13 +14,13 @@
             background: #fff;
             font-family: 'Roboto', sans-serif;
             font-weight: 300;
-            line-height: 1.4;
+            line-height: 1.7;
         }
         em {
             color: #999;
         }
         p {
-            line-height: 1.4;
+            line-height: 1.7;
         }
         ul {
             margin-bottom: 0;
@@ -504,7 +504,7 @@
                     </div>
                     <div class="email">
                         <icon class="entypo-mail"></icon>
-                        <a href="/cdn-cgi/l/email-protection#3c515d4e485552124f50535d527c575d4e515d11485957125f5351"><span class="__cf_email__" data-cfemail="dcb1bdaea8b5b2f2afb0b3bdb29cb7bdaeb1bdf1a8b9b7f2bfb3b1">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
+                        <a href="/cdn-cgi/l/email-protection#701d110204191e5e031c1f111e301b11021d115d04151b5e131f1d"><span class="__cf_email__" data-cfemail="b5d8d4c7c1dcdb9bc6d9dad4dbf5ded4c7d8d498c1d0de9bd6dad8">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
                     </div>
                     <div class="phone">
                         <icon class="entypo-phone"></icon>
@@ -540,7 +540,7 @@
     <div id="summary" class="row">
         <div class="col-sm-8 col-sm-offset-4 col-xs-12">
             <div class="summary">
-                <p class="lead">Martin (Marty) Sloan is a dedicated and experienced subject matter expert Collaboration engineer and avid web application developer.  His unique combination of experience in full-stack development, virtualization technologies and unified communications platforms offers a broad understanding of the technology stack and unique insights into engineering tasks and IT lifecycle management.</p>
+                <p class="lead">Martin (Marty) Sloan is a dedicated and experienced subject matter expert Collaboration engineer and avid web application developer.  His combination of experience in full-stack development, virtualization technologies and unified communications platforms offers a broad understanding of the technology stack and unique insights into engineering tasks and IT lifecycle management.</p>
             </div>
         </div>
     </div>
