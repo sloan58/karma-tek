@@ -638,7 +638,6 @@
                     <li>Created standard procedures for consistency and to improve support response time.</li>
                     <li>Assisted in disaster recovery planning, testing, implementation and documentation.</li>
                     <li>Strong team management and supervisory skills including scheduling, priority setting of tickets.</li>
-                    <li></li>
                 </ul>
             </div>
             <div class="item">
