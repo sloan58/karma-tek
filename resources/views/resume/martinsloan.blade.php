@@ -504,7 +504,7 @@
                     </div>
                     <div class="email">
                         <icon class="entypo-mail"></icon>
-                        <a href="/cdn-cgi/l/email-protection#75181407011c1b5b06191a141b351e140718145801101e5b161a18"><span class="__cf_email__" data-cfemail="6e030f1c1a0700401d02010f002e050f1c030f431a0b05400d0103">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
+                        <a href="/cdn-cgi/l/email-protection#cba6aab9bfa2a5e5b8a7a4aaa58ba0aab9a6aae6bfaea0e5a8a4a6"><span class="__cf_email__" data-cfemail="8ae7ebf8fee3e4a4f9e6e5ebe4cae1ebf8e7eba7feefe1a4e9e5e7">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
                     </div>
                     <div class="phone">
                         <icon class="entypo-phone"></icon>
@@ -971,7 +971,8 @@
                     <li>AWS RDS</li>
                     <li>MySQL</li>
                     <li>SQLite</li>
-                    <li>NoSQL | DynamoDB / MongoDB</li>
+                    <li>DynamoDB</li>
+                    <li>MongoDB</li>
                 </ul>
             </div>
             <div class="item">
