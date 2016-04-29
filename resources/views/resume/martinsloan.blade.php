@@ -774,7 +774,7 @@
                     <icon class="large entypo-trophy"></icon>
                 </div>
                 <div class="col-xs-10">
-                    <h2 class="section-title">Awards</h2>
+                    <h2 class="section-title">Certifications</h2>
                 </div>
             </div>
         </div>
