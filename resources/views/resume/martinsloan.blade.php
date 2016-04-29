@@ -688,7 +688,7 @@
                     <a href="http://www.presidio.com/">http://www.presidio.com/</a>
                 </div>
                 <div class="summary">
-                    <p>Supervised 12-member 24/7 Operations Center staff.</p>
+                    <p>Provided Tier2 network support and supervised a 12-member 24/7 Operations Center staff.</p>
                 </div>
                 <ul class="highlights">
                     <li>Recruited, and periodically evaluated staff members.</li>
