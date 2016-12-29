@@ -9,6 +9,7 @@
 
     <link href="http://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:500,300' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <style>
         body {
             background: #fff;
@@ -105,7 +106,7 @@
         #profiles .item {
             float:left;
             vertical-align:top;
-            margin-right:0.25em;
+            margin-right:2em;
         }
 
         #profiles a {
@@ -495,6 +496,7 @@
         </div>
         <div class="col-xs-9 col-sm-8">
             <h1>Martin Sloan</h1>
+            <h2>CCIE #41076 (Collaboration)</h2>
             <h2>Collaboration Engineer &amp; Web Application Developer</h2>
             <section id="basics">
                 <div class="contact">
@@ -514,23 +516,28 @@
                 <section id="location">
                     <icon class="entypo-home"></icon>
 							<span class="address">
-								23234 Wrathall Dr
+								530 Cortland Dr
 								<br/>
-								<span class="postalCode">20148</span>
-								<span class="city">Ashburn</span>
-								<span class="region">Virginia</span>
+								<span class="postalCode">15332</span>
+								<span class="city">Pittsburgh</span>
+								<span class="region">Pennsylvania</span>
 								<span class="countryCode">US</span>
 							</span>
                 </section>
                 <section id="profiles">
                     <div class="item">
                         <a href="https://github.com/sloan58">
-                            <icon class="entypo-github"></icon>
+                            <i class="fa fa-github-alt fa-3x" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://bitbucket.org/sloan58/">
+                            <i class="fa fa-bitbucket fa-3x" aria-hidden="true"></i>
                         </a>
                     </div>
                     <div class="item">
                         <a href="https://www.linkedin.com/in/martin-sloan-1372329">
-                            <icon class="entypo-linkedin"></icon>
+                            <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
                         </a>
                     </div>
                 </section>
@@ -568,23 +575,45 @@
 						2013-01-01
 					</span>
 					<span class="endDate">
-						- 2016-04-01
+						- Present
 					</span>
                 </div>
                 <div class="website">
                     <a href="http://www.karma-tek.com">http://www.karma-tek.com</a>
                 </div>
                 <div class="summary">
-                    <p>Work with Cisco partners and end clients to deploy and manage Collaboration technologies.  This position is part collaboration engineer, part web application developer.  A typical engagement will include the design, deployment and handover support of Cisco Collaboration solutions while also designing and developing custom tools to automate, monitor and manage the Collaboration platforms.</p>
+                    <p>I work with Cisco partners and end clients to deploy and manage Cisco UC and Collaboration technologies.  This job is a marriage of Unified Communications and application development.<br><br>My current projects include:</p>
                 </div>
-                <ul class="highlights">
-                    <li>Supporting multiple Cisco CUCM mega-cluster clients.</li>
-                    <li>Developing an open source suite of Collaboration utilities with Laravel 5.1 for integration, automation and reporting.  (https://github.com/sloan58/uc-insight-esk.git)</li>
-                    <li>Contributing to multiple open source projects and SDK&#x27;s.</li>
-                    <li>Developing Duo Security REST API integration module to supply a multi-tenant architecture for localized access to user data.  This application is used for reporting and provisioning of about 30k end user accounts.</li>
-                    <li>Developing Juniper automation and deployment tool.  This tool provides an interface for technicians to automate configuration generation and deployment over REST API&#x27;s.</li>
-                    <li>Developed a real-time network bandwidth calculation tool with the MEAN javascript stack and socket.io</li>
-                </ul>
+                <ol class="highlights">
+                    <li><b>Asset Management Middleware: </b>Designing, developing and integrating Cisco UC asset management middleware for a global, multi-cluster enterprise customer.<br><b>- Project Overview</b>
+                        <ul>
+                            <li>Data collection via Cisco Unified Communications Manager AXL API.  With over 1 dozen CUCM clusters and Session Manager Edition, the Cisco UC middleware collects critical information from the distributed CUCM clusters and aggregates the data at a central repository.</li>
+                            <li>Data collection via Cisco Unity Connection Database Proxy Service.  The UC middleware leverages the Cisco Unity Connection Database Proxy service to integrate via ODBC for data collection over the distributed UC network to provide centralized access to Unity Connection data.</li>
+                            <li>Data processing.  The middleware also collects customer HR data via ODBC to process, validate and report on compliant and non-compliant UC data.  This process allows the customer to track and manage minute details for compliance and billing over a vast UC network with complete automation.</li>
+                            <li>Data Distribution.  The middleware distributes data to other customer systems for machine to machine integration, allowing for localized systems to access distributed UC data from a central point.</li>
+                        </ul>
+                    </li>
+                    <li><b>Provisioning Middleware: </b>Designing, developing and integrating Cisco UC provisioning and remote control UC middleware for a large public sector organization.  The customer network consists of a multi-cluster/SME environment on Cisco UCS B-Series hardware across multiple data centers.  The ongoing consulting nature of this project allows me to create many on-demand and ad-hoc tools to assist engineering and operations with daily tasks and challenges.  Below are some of the opportunities I've had to provide custom integrations and tooling.<br><b>- Project Overview</b>
+                        <ul>
+                            <li>Automated remote IP Phone control to delete CUCM ITL files.  The customer has an ongoing effort to bring new clients on to a national UC platform, and therefore has many instances of customers already running CUCM networks, which need to be 'touched' in order to register with the new platform.  The remote control process not only removes the ITL file via programtic automation, it performs pre-cut checks for firmware validation, IP phone settings, etc.</li>
+                            <li>IP Phone Background image deployment tool.  This tool syncronizes with CUCM via AXL API and allows support staff to remotely provision IP Phone background images on-demand using the built in IP Phone API's.  It not only alleviates the need to update and restart the TFTP service on the CUCM nodes, it also provides a way to provision images without making them available system wide.  It will also automatically resize images to the proper full and thumbnail sizes for each phone, so that all you have to do is load the image once and it's ready for all models that will support it.</li>
+                            <li>Duo Dual-Factor Auth Multi-Tenant application.  The Duo dual-factor auth web interface did not provide a sufficient way of segmenting the customers large, distributed network and so using their REST API I was able to build an interface that would provide reporting in a multi-tenant architecture.</li>
+                        </ul>
+                    </li>
+                    <li><b>Autodialer Application:</b> An independent effort to automate the testing of phone numbers when customers change telephony providers or connection types.  The Autodialer source code is available here <a href="https://github.com/sloan58/autodialer">https://github.com/sloan58/autodialer</a> with instructions on sign-up and usage.  The autodialer is a hosted solution for anyone to use, since it bills to individual Twilio accounts.  The live site is at <a href="http://autodialer.karmatek.io/login">http://autodialer.karmatek.io/login</a><br><b>- Project Overview</b>
+                        <ul>
+                            <li>The Autodialer application integrates with the Twilio API to provide an automated interface for dialing a large list of phone numbers.  It supports SMS, voice and playing audio files when calls are answered.  It also will proccess voice gateway or SBC log files to provide automated reporting on whether phone numbers have been properly ported to a new gateway or connection.</li>
+                        </ul>
+                    </li>
+                    <li><b>Project Insight:</b> An independent effort to provide a free, open source application for tracking projects, tasks and more.  The Project Insight source code is available here <a href="https://bitbucket.org/sloan58/projectinsight">https://bitbucket.org/sloan58/projectinsight</a> for download.  It also includes instructions for logging in to the demo site at <a href="http://projectinsight.karmatek.io">http://projectinsight.karmatek.io</a>.<br><b>- Project Overview</b>
+                        <ul>
+                            <li>This program has grown organically, and started as a tool I created for an engineering team to track their projects and tasks.  It has nice charts and graphs, and other features which make engineers and managers happy!</li>
+                        </ul>
+                    </li>
+                    <li><b>Runner Social:</b>  A start-up that brings people together for excercise!  This web application integrates with your social media network and allows you to schedule running events with your friends.  On the back end, Twilio will call you (or you can call in) to join with the group.  Optional overlays are available to provide motivation and technical training plans.  The app is still in development but the landing page is live here: <a href="http://www.runnersocial.com">http://www.runnersocial.com</a>
+                    </li>
+                </ol>
+                <li>Contribution to multiple open source projects and SDK&#x27;s on Github.</li>
             </div>
             <div class="item">
                 <h3 class="name">
@@ -863,34 +892,34 @@
         </div>
     </section>
 
-    <section id="publications" class="row">
-        <div class="col-sm-4">
-            <div class="row">
-                <div class="col-xs-2">
-                    <icon class="large entypo-book"></icon>
-                </div>
-                <div class="col-xs-10">
-                    <h2 class="section-title">Publications</h2>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-8">
-            <div class="item">
-                <div class="name">
-                    <h3>Karma-Tek Blog</h3>
-                </div>
-                <div class="publisher">
-                    <p class="lead">Marty Sloan</p>
-                </div>
-                <div class="website">
-                    <a href="http://www.karma-tek.com/blog">Link</a>
-                </div>
-                <div class="summary">
-                    <p>Programming AXL SOAP API&#x27;s with Laravel</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    {{--<section id="publications" class="row">--}}
+        {{--<div class="col-sm-4">--}}
+            {{--<div class="row">--}}
+                {{--<div class="col-xs-2">--}}
+                    {{--<icon class="large entypo-book"></icon>--}}
+                {{--</div>--}}
+                {{--<div class="col-xs-10">--}}
+                    {{--<h2 class="section-title">Publications</h2>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="col-sm-8">--}}
+            {{--<div class="item">--}}
+                {{--<div class="name">--}}
+                    {{--<h3>Karma-Tek Blog</h3>--}}
+                {{--</div>--}}
+                {{--<div class="publisher">--}}
+                    {{--<p class="lead">Marty Sloan</p>--}}
+                {{--</div>--}}
+                {{--<div class="website">--}}
+                    {{--<a href="http://www.karma-tek.com/blog">Link</a>--}}
+                {{--</div>--}}
+                {{--<div class="summary">--}}
+                    {{--<p>Programming AXL SOAP API&#x27;s with Laravel</p>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</section>--}}
 
     <section id="skills" class="row">
         <div class="col-sm-4">
