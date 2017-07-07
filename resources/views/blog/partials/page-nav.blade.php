@@ -28,9 +28,9 @@
               <li>
                   <a href="#about" class="smoothScroll">About</a>
               </li>
-              <li>
-                  <a href="/blog">Blog</a>
-              </li>
+              {{--<li>--}}
+                  {{--<a href="/blog">Blog</a>--}}
+              {{--</li>--}}
           </ul>
           <ul class="nav navbar-nav navbar-right">
               <li>
