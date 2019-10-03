@@ -1,7 +1,7 @@
 <?php
 return [
-    'name' => "Karma-Tek",
-    'title' => "Karma-Blog",
+    'name' => "KarmaTek",
+    'title' => "KarmaTek",
     'subtitle' => 'Adventures in IT',
     'description' => 'Tech Blog',
     'author' => 'Martin Sloan',
